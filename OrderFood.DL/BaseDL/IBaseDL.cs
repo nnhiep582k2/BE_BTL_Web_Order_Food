@@ -1,6 +1,6 @@
 ﻿namespace OrderFood.DL
 {
-    public interface IBaseDL
+    public interface IBaseDL<T>
     {
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace OrderFood.DL
 {
-    public class BaseDL
+    public class BaseDL<T> : IBaseDL<T>
     {
     }
 }
