@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+*.dll
+*.exe
+*.suo
+*.user
+.vscode/
+*.sln
+*.csproj.user
