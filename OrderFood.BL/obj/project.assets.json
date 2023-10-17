@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Dapper/2.1.11": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MySqlConnector/2.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OrderFood.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/OrderFood.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderFood.Common.dll": {}
+        }
+      },
+      "OrderFood.DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dapper": "2.1.11",
+          "MySqlConnector": "2.2.7",
+          "OrderFood.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderFood.DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderFood.DL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/2.1.11": {
+      "sha512": "4S2ysi5sxGID6TiAkNpAu4eqkGU1gZjOJ+UAygIdkWFEAX02S8NwUuUzqkqbHL9FTRgimwbz99xte2luMCm6iw==",
+      "type": "package",
+      "path": "dapper/2.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.11.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
+    "MySqlConnector/2.2.7": {
+      "sha512": "rwFa71MlOJ142S+BXDvtLRdAIn7l6PTNWu+Xehs2qRehK8dckjKqwvK8azEADCMkQyXS1LXgh9HkSvItpTi6WA==",
+      "type": "package",
+      "path": "mysqlconnector/2.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net7.0/MySqlConnector.dll",
+        "lib/net7.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.2.7.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
+    "OrderFood.Common/1.0.0": {
+      "type": "project",
+      "path": "../OrderFood.Common/OrderFood.Common.csproj",
+      "msbuildProject": "../OrderFood.Common/OrderFood.Common.csproj"
+    },
+    "OrderFood.DL/1.0.0": {
+      "type": "project",
+      "path": "../OrderFood.DL/OrderFood.DL.csproj",
+      "msbuildProject": "../OrderFood.DL/OrderFood.DL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "OrderFood.Common >= 1.0.0",
+      "OrderFood.DL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.BL\\OrderFood.BL.csproj",
+      "projectName": "OrderFood.BL",
+      "projectPath": "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.BL\\OrderFood.BL.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.BL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.Common\\OrderFood.Common.csproj": {
+              "projectPath": "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.Common\\OrderFood.Common.csproj"
+            },
+            "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.DL\\OrderFood.DL.csproj": {
+              "projectPath": "D:\\TaiLieuNam4\\6.Chuyen-de-phan-mem\\BTL\\OrderFood\\OrderFood.DL\\OrderFood.DL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
