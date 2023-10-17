@@ -1,6 +1,6 @@
 ﻿namespace OrderFood.BL
 {
-    public interface IBaseBL
+    public interface IBaseBL<T>
     {
     }
 }

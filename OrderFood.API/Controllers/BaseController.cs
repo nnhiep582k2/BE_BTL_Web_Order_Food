@@ -1,16 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OrderFood.BL;
 
 namespace OrderFood.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
-    public class BaseController : ControllerBase
+    public class BaseController<T> : ControllerBase
     {
         #region Field
+
+        private IBaseBL<T> _baseBL;
 
         #endregion
 
         #region Constructor
+
+        public BaseController(IBaseBL<T> baseBL)
+        {
+            _baseBL = baseBL;
+        }
 
         #endregion
 

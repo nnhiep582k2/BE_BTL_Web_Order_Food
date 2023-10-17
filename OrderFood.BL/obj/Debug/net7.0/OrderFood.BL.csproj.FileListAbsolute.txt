@@ -1,0 +1,17 @@
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.BL.deps.json
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.BL.dll
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.BL.pdb
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.Common.dll
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.DL.dll
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.Common.pdb
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\bin\Debug\net7.0\OrderFood.DL.pdb
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.csproj.AssemblyReference.cache
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.AssemblyInfoInputs.cache
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.AssemblyInfo.cs
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.csproj.CoreCompileInputs.cache
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.csproj.CopyComplete
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.dll
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\refint\OrderFood.BL.dll
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\OrderFood.BL.pdb
+D:\TaiLieuNam4\6.Chuyen-de-phan-mem\BTL\OrderFood\OrderFood.BL\obj\Debug\net7.0\ref\OrderFood.BL.dll

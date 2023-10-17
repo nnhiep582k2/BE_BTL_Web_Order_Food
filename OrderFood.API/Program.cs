@@ -1,13 +1,25 @@
+using OrderFood.BL;
+using OrderFood.DL;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Dependency Injection
+builder.Services.AddScoped(typeof(IBaseBL<>), typeof(BaseBL<>));
+builder.Services.AddScoped(typeof(IBaseDL<>), typeof(BaseDL<>));
+
+// Get ConnectionString from appsettings
+DatabaseContext.ConnectionString = builder.Configuration.GetConnectionString("Mysql");
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+builder.Services.AddCors();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
